@@ -1,3 +1,3 @@
-# Heart-Disease-Classification
+# Heart-Disease-Prediction
 
-### Created a Machine Learning model that determines whether a person has heart disease or not.
+### Created a website wherein one can enter a patient's details like heart rate , resting blood pressure , type of chest pain , cholestrol , etc . and can find out if the patient has the possibility of having a heart disease.
