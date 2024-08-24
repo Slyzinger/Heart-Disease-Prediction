@@ -22,7 +22,8 @@ def predict():
     
     # Make prediction
     prediction = model.predict(final_features)
-    output = 'Yes' if prediction[0] == 1 else 'No'
+    output = 'The prediction model suggests that you may have heart disease. Please consult a healthcare professional for further evaluation and treatment.' if prediction[0] == 1 else 'The prediction model indicates that you do not have heart disease. However, it is always advisable to maintain regular check-ups with your healthcare provider to ensure your heart health.'
+
 
     return render_template('index.html', prediction_text='Prediction: {}'.format(output), 
                            data_input='Input Data: {}'.format(int_features))
